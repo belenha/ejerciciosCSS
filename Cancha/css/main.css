@@ -1,0 +1,87 @@
+body{
+  background-color: lightgray;
+}
+
+div#pasto{
+  background-color: green;
+  height: 250px;
+  left: 30%;
+  position: relative;
+  width: 500px;
+}
+
+div#cancha{
+  border:3px solid white;
+  height: 200px;
+  left: 20px;
+  position: absolute;
+  top: 20px;
+  width: 450px;
+}
+
+/*div#pasto div#cancha div{
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}*/
+
+#centro{
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 80px;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  width: 80px;
+}
+
+.porteria{
+border: 3px solid white;
+height: 100px;
+position: absolute;
+top: 25%;
+width: 50px;
+}
+
+#derecha{
+  border-right: none;
+  left: 88%;
+}
+
+#izq{
+  border-left: none;
+  left: -1px;
+}
+
+#pelotaUno{
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 10px;
+  left: 10%;
+  top: 26%;
+  position:absolute;
+  width: 10px;
+}
+
+#pelotaDos{
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 10px;
+  left: 50%;
+  top: 13%;
+  position:absolute;
+  width: 10px;
+}
+
+#pelotaTres{
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 10px;
+  left: 85%;
+  top: 68%;
+  position:absolute;
+  width: 10px;
+}
